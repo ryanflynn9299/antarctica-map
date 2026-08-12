@@ -1,6 +1,8 @@
 # Antarctica Temperature Map
 
-A personal high-resolution polar view of Antarctic **2 m air temperature** inspired by Apple's Weather app with enough color range to tell deep colds apart, rendered in continental view rather than along the bottom of Mercator-projection world maps.
+A personal high-resolution polar view of Antarctic **2m air temperature** inspired by Apple's Weather app with enough color range to tell deep colds apart, rendered in continental view rather than along the bottom of Mercator-projection world maps.
+
+![Antarctica 2 m temperature overview](overview.png)
 
 ## Why this exists
 
