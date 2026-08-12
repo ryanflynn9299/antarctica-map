@@ -1,0 +1,23 @@
+[project]
+name = "antarctica-temp-map"
+version = "0.1.0"
+description = "Interior-focused Antarctic temperature snapshots from NOAA GFS"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cartopy>=0.25.0",
+    "gribberish>=1.6.0",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "pillow>=12.3.0",
+    "requests>=2.34.2",
+    "shapely>=2.1.2",
+    "xarray>=2026.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["antarctica_temp_map"]
